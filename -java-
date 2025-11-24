@@ -1,0 +1,23 @@
+Import java.util.Scanner;
+Public class fitnesslevel{
+Public static string
+getFitnessLevel(int steps){
+
+if ( steps>=1000 ) ; {return 
+"Excelent" ;
+} else if(steps>=7000&&steps<1000); {return  " Good" ; }
+    else if( steps>=4000&&steps<7000);
+{return  "Average "; }
+    else {return "poor";}}
+{Public static voice main (string []
+args)
+scanner input=new Scanner (system. in);
+System.out.printin (
+"Enter your steps for the day:");
+int steps=input. nextInt();
+String level =
+GetFitnessLevel (steps);
+System.out.printin (
+Your fitness level is :" +level );
+{
+}
